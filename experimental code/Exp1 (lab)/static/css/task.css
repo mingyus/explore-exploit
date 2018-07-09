@@ -1,0 +1,96 @@
+#page{
+	font-family:Arial;
+	font-size: 20px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#abovegraph{
+	width:95%;
+	margin-top: 10px;
+}
+#trial_ind{
+	float:right;
+	margin-top:20px;
+	margin-bottom: 80px;/*100px;*/
+}
+
+/*canvas{
+	width:10%;
+    display:block;
+	float:left;
+}*/
+
+#showrewardvalue{
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 15px;
+}
+#reward_his{
+	display:inline-block;
+}
+.square{
+	height:32px; width:40px;
+	border: 2px solid black;
+	margin:-1px;
+	display:inline-block;
+	text-align: center;
+}
+#total_reward{
+	display:inline-block;
+	text-align:right;
+	/*margin-left:20px;*/
+}
+
+#askaction{
+	height:40px;
+	text-align: center;
+	margin-top: 15px;
+}
+#twobuttons{
+	width:360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.taskbutton{
+	font-size: 17px;
+	height:55px; width:170px; 
+	display:inline-block;
+	margin-right:5px;margin-left: 5px;
+	cursor:pointer;
+}
+#nexttrialdiv{
+	margin-top: 20px;
+	margin-left:auto; margin-right: auto;
+	display: block;
+	text-align: center;
+}
+#nexttrial{
+	margin:auto;
+	display: block;
+}
+
+#noticel1{
+	margin-top:300px;
+	text-align: center;
+}
+#noticel2{
+	margin-top:25px;
+	text-align: center;
+}
+button:disabled {
+    opacity: 0.3;
+}
+
+
+#postquestioninput{
+	display: block;
+}
+
+#postquestionsubmit{
+	margin-top: 20px;
+	display:block;
+	margin-right: auto;
+	margin-right: auto;
+}
